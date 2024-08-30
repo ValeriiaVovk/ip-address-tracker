@@ -16,34 +16,40 @@
     </style>
 </head>
 <body>
-    <header class="header">
-        <h1>IP Address Tracker</h1>
-        <div class="header__input">
-            <input type="text" placeholder="Search for any IP address or domain">
-            <button></button>
+    <header>
+        <div class="container header">
+            <h1>IP Address Tracker</h1>
+            <div class="header__input">
+                <input type="text" placeholder="Search for any IP address or domain">
+                <button>
+                    <img src="./images/icon-arrow.svg" alt="arrow">
+                </button>
+            </div>
         </div>
     </header>
 
     <main>
         <section class="ip__image"></section>
-        <section class="ip__info">
-            <div class="ip__info-details">
-                <p>IP Address</p>
-                <h2></h2>
-            </div>
-            <div class="ip__info-details">
-                <p>Location</p>
-                <h2></h2>
-            </div>
-            <div class="ip__info-details">
-                <p>Timezone</p>
-                <h2>UTC</h2>
-            </div>
-            <div class="ip__info-details">
-                <p>ISP</p>
-                <h2></h2>
-            </div>
-        </section>
+        <div class="container ip_wrapper">
+            <section class="ip__info">
+                <div class="ip__info-details">
+                    <p>IP Address</p>
+                    <h2></h2>
+                </div>
+                <div class="ip__info-details">
+                    <p>Location</p>
+                    <h2></h2>
+                </div>
+                <div class="ip__info-details">
+                    <p>Timezone</p>
+                    <h2></h2>
+                </div>
+                <div class="ip__info-details">
+                    <p>ISP</p>
+                    <h2></h2>
+                </div>
+            </section>
+        </div>
     </main>
   
   <footer>
