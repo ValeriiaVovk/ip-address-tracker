@@ -99,6 +99,7 @@ main {
     display: flex;
     position: absolute;
     top: -80px;
+    z-index: 999;
 }
 
 .ip__info-details {
@@ -132,6 +133,10 @@ main {
     line-height: 115%;
     letter-spacing: -0.01em;
     color: #2c2c2c;
+}
+
+#map { 
+    height: 600px; 
 }
 
 @media (max-width: 750px) {
